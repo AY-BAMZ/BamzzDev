@@ -1,0 +1,80 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0;
+  background: url("https://res.cloudinary.com/dmixz7eur/image/upload/v1673563479/b2_bhqlw8.jpg");
+  background-size: cover;
+}
+.navbar {
+  width: calc(100% - 80px);
+  margin: 0%;
+  padding: 0 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+}
+.home .logo img {
+  width: 80px;
+  cursor: pointer;
+}
+.home .navbar .navLinks {
+  display: flex;
+  justify-content: space-between;
+}
+.home .navbar .navLink,
+.home .navbar .navLinkActive {
+  margin: 0 20px;
+}
+.home .navbar .navLink li {
+  list-style: none;
+  color: #bbb;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+  font-weight: 500;
+}
+.home .navbar .navLink .activeLine {
+  height: 0px;
+}
+.home .navbar .navLinkActive li {
+  list-style: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+  font-weight: 700;
+}
+.home .navbar .navLinkActive .activeLine {
+  display: flex;
+  width: 40px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #cb3ea6;
+  margin-top: 12px;
+}
+.home .container .social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.home .container .myName {
+  display: flex;
+  font-size: 20px;
+  color: #ccc;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 12vh;
+  font-family: "Roboto Slab", serif;
+}
+.home .container .myName .name {
+  padding: 15px 40px;
+  border-bottom: .5px solid #ccc;
+  margin-right: 30px;
+  font-weight: 400;
+}

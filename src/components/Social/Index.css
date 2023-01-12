@@ -1,0 +1,11 @@
+.mySocials{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+.mySocials .icons{
+    color: #fff;
+    font-size: 32px;
+    margin: 16px;
+}
