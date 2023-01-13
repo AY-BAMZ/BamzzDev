@@ -1,0 +1,99 @@
+.contact {
+  max-width: 1100px;
+  margin: 0 40px;
+  margin: auto;
+  height: 78vh;
+  align-items: center;
+  display: flex;
+  text-align: left;
+}
+.contact .container{
+  width: 100%;
+}
+.contact .container h4 li {
+  max-width: 1000px;
+  color: #ddd;
+  font-weight: 200;
+  list-style: none;
+  line-height: 32px;
+}
+.contact .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0%;
+  margin-top: 40px;
+}
+.contact .container .row .col{
+  width: 50%;
+  text-align: left;
+}
+.contact .container .link{
+  display: flex;
+  align-items: center;
+  color: #eb9340;
+  font-size: 32px;
+  width: 100%;
+}
+.contact .container .link h5{
+  color: #ddd;
+  line-height: 16px;
+  margin-left: 12px;
+  font-weight: 300;
+}
+.contact .container .row .col h4{
+  color: #ddd;
+  font-weight: 400;
+}
+.contact .container .row .col label{
+  color: #ddd;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  width: 100%;
+}
+.contact .container .row .col input{
+  width: 100%;
+  outline: none;
+  background-color: #ffffff15;
+  border: 1px solid #dddddd60;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #ddd;
+}
+.contact .container .row .col input::placeholder{
+  font-family: "Roboto Slab", serif;
+}
+.contact .container .row .col textarea{
+  width: 100%;
+  outline: none;
+  background-color: #ffffff15;
+  border: 1px solid #dddddd60;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  height: 100px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #ddd;
+}
+.contact .container .row .col textarea::placeholder{
+  font-family: "Roboto Slab", serif;
+}
+.contact .container .row .col button{
+  font-family: "Roboto Slab", serif;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #000;
+  background-color: #eb9340;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
