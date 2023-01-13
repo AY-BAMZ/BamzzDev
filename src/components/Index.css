@@ -3,7 +3,7 @@
   height: 100vh;
   margin: 0%;
   padding: 0;
-  background: url("https://res.cloudinary.com/dmixz7eur/image/upload/v1673563479/b2_bhqlw8.jpg");
+  background: url("https://res.cloudinary.com/dmixz7eur/image/upload/v1673565701/b2_bjtsmq.jpg");
   background-size: cover;
 }
 .navbar {
@@ -15,8 +15,11 @@
   justify-content: space-between;
   height: 12vh;
 }
+.home .logo{
+  display: flex;
+}
 .home .logo img {
-  width: 80px;
+  width: 40px;
   cursor: pointer;
 }
 .home .navbar .navLinks {
@@ -37,7 +40,8 @@
   font-weight: 500;
 }
 .home .navbar .navLink .activeLine {
-  height: 0px;
+  margin-top: 12px;
+  height: 5px;
 }
 .home .navbar .navLinkActive li {
   list-style: none;
@@ -53,7 +57,7 @@
   width: 40px;
   height: 5px;
   border-radius: 20px;
-  background-color: #cb3ea6;
+  background-color: #eb9340;
   margin-top: 12px;
 }
 .home .container .social {
@@ -68,13 +72,33 @@
   color: #ccc;
   align-items: center;
   display: flex;
-  position: absolute;
-  top: 12vh;
   font-family: "Roboto Slab", serif;
 }
 .home .container .myName .name {
-  padding: 15px 40px;
-  border-bottom: .5px solid #ccc;
+  color: #eb9340;
+  padding: 8px 20px;
+  cursor: pointer;
   margin-right: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
+.header{
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #ddd;
+  text-align: left;
+}
+.header span{
+  color: #eb9340;
+}
+h4{
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+h5{
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+

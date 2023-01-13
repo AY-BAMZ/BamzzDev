@@ -19,6 +19,11 @@ function Home() {
               src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673557941/logo_ary4sc.png"
               alt=""
             />
+            
+        <div className="myName">
+          <div className="name">Ayobami Paul</div>
+          <p>{active}</p>
+        </div>
           </div>
           <div className="navLinks">
             <div
@@ -68,10 +73,6 @@ function Home() {
         </div>
         <div className="social">
           <Social />
-        </div>
-        <div className="myName">
-          <div className="name">Ayobami Paul</div>
-          <p>{active}</p>
         </div>
       </div>
     </div>

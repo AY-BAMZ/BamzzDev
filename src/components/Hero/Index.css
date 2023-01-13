@@ -1,0 +1,29 @@
+.hero .container{
+    max-width: 1100px;
+    margin: 0 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 78vh;
+}
+.hero .container .image{
+    width: 45%;
+}
+.hero .container .image img{
+    width: 100%;
+}
+.hero .container .title{
+    font-size: 60px;
+  font-family: "Roboto Slab", serif;
+    width: 60%;
+    margin-left: -10%;
+    z-index: 20;
+    text-align: left;
+}
+.hero .container .title p{
+    color: #ddd;
+    text-shadow: 0px 0px 30px #000000ff;
+}
+.hero .container .title p span{
+    color: #eb9340;
+}
