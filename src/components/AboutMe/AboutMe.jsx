@@ -25,7 +25,10 @@ function AboutMe() {
           set of abilities, and am excited to bring my expertise to new projects
           and challenges.
         </h4>
+        <div style={{alignItems: "left", display: 'flex'}}>
+
         <button>Download Resume</button>
+        </div>
       </div>
     </div>
   );
