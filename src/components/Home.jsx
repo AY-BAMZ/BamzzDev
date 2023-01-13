@@ -16,7 +16,7 @@ function Home() {
         <div className="navbar">
           <div onClick={() => setActive(1)} className="logo">
             <img
-              src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673557941/logo_ary4sc.png"
+              src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673583454/my%20portfolio/logo_wzrddg.png"
               alt=""
             />
             

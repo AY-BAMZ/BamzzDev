@@ -20,6 +20,7 @@
 }
 .home .logo img {
   width: 40px;
+  height: 55PX;
   cursor: pointer;
 }
 .home .navbar .navLinks {
