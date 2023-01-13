@@ -15,12 +15,12 @@
   justify-content: space-between;
   height: 12vh;
 }
-.home .logo{
+.home .logo {
   display: flex;
 }
 .home .logo img {
   width: 40px;
-  height: 55PX;
+  height: 55px;
   cursor: pointer;
 }
 .home .navbar .navLinks {
@@ -82,25 +82,91 @@
   margin-right: 30px;
   font-weight: 300;
 }
-.header{
+.header {
   font-family: "Roboto Slab", serif;
   font-size: 40px;
   font-weight: 300;
   color: #ddd;
   text-align: left;
 }
-.header span{
+.header span {
   color: #eb9340;
 }
-h4{
+h4 {
   text-align: left;
   font-family: "Roboto Slab", serif;
   font-size: 20px;
   line-height: 32px;
 }
-h5{
+h5 {
   text-align: left;
   font-family: "Roboto Slab", serif;
   font-size: 16px;
 }
-
+.home .container .toggleMenu {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .home .navbar .navLinks {
+    display: none;
+  }
+  .home .container .toggleMenu {
+    display: block;
+  }
+  .home .container .toggleMenu .menu {
+    color: #eb9340;
+    font-size: 32px;
+  }
+  .home .toggleMenu .menuLinks {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0%;
+    padding: 0;
+    background: url("https://res.cloudinary.com/dmixz7eur/image/upload/v1673565701/b2_bjtsmq.jpg");
+    text-align: left;
+    height: 100vh;
+    z-index: 200;
+    padding
+    : 40px 10px;
+  }
+  .home .toggleMenu .menuLinks .close {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ddd;
+    font-family: "Roboto Slab", serif;
+    margin: 0 20px;
+    border-radius: 12px;
+    border: 1px solid #bbb;
+    position: relative;
+    padding: 12px;
+    width: 110px;
+    cursor: pointer;
+  }
+  .home .toggleMenu .menuLinks .close p {
+    margin: 0%;
+    padding: 0%;
+  }
+  .home .toggleMenu .closeMenu {
+    display: none;
+  }
+  .home .toggleMenu .menuLinks .navLink{
+    margin: 20px 20px;
+  }
+  .home .toggleMenu .menuLinks .navLink li{
+    font-size: 20px;
+    margin: 5px 0;
+    color: #ccc;
+  }
+  .home .toggleMenu .menuLinks .navLinkActive{
+    margin: 20px 20px;
+  }
+  .home .toggleMenu .menuLinks .navLinkActive li{
+    font-size: 20px;
+    margin: 5px 0;
+    color: #eb9340;
+  }
+}
