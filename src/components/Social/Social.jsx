@@ -1,19 +1,31 @@
-import React from 'react'
+import React from "react";
 import "./Index.css";
-import { FaGithub } from 'react-icons/fa';
-import { AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { FaGithub } from "react-icons/fa";
+import {
+  AiFillLinkedin,
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 
 function Social() {
   return (
-    <div className='mySocials'>
+    <div className="mySocials">
       <div className="links">
-    <FaGithub className='icons'/>
-    <AiFillLinkedin className='icons'/>
-    <AiOutlineInstagram className='icons'/>
-    <AiOutlineTwitter className='icons'/>
+        <a href="https://github.com/AY-BAMZ">
+          <FaGithub className="icons" />
+        </a>
+        <a href="https://www.linkedin.com/in/ayobami-paul-4bb370259/">
+          <AiFillLinkedin className="icons" />
+        </a>
+        <a href="https://www.instagram.com/bamzzdev/">
+          <AiOutlineInstagram className="icons" />
+        </a>
+        <a href="https://twitter.com/BamzzDev">
+          <AiOutlineTwitter className="icons" />
+        </a>
       </div>
     </div>
-  )
+  );
 }
 
-export default Social
+export default Social;

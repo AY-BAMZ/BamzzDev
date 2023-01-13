@@ -11,3 +11,17 @@
     color: #ddd;
     font-weight: 200;
 }
+.aboutMe  button{
+    font-family: "Roboto Slab", serif;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #000;
+    background-color: #eb9340;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+  }
