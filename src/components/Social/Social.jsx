@@ -5,6 +5,7 @@ import {
   AiFillLinkedin,
   AiOutlineInstagram,
   AiOutlineTwitter,
+  AiOutlineWhatsApp
 } from "react-icons/ai";
 
 function Social() {
@@ -22,6 +23,9 @@ function Social() {
         </a>
         <a href="https://twitter.com/BamzzDev">
           <AiOutlineTwitter className="icons" />
+        </a>
+        <a href="https://wa.me/2349066821545">
+          <AiOutlineWhatsApp className="icons" />
         </a>
       </div>
     </div>
