@@ -57,3 +57,14 @@
 .portfolio .row .content:hover >  button {
  display: block;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .portfolio{
+    margin: 0 25px;
+  }
+  .portfolio .row{
+    height: 70vh;
+    overflow-y: scroll;
+  }
+}

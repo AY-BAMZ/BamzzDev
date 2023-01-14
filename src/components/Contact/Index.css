@@ -97,3 +97,20 @@
   outline: none;
   cursor: pointer;
 }
+@media only screen and (max-width: 768px)  {
+  .contact{
+    margin: 0 25px;
+  }
+  .contact .container .row .col{
+    width: 100%;
+  }
+  .contact .container .link h5{
+    display: none;
+  }
+  .contact #one{
+    display: flex;
+  }
+  .contact .container .row .col input,.contact .container .row .col textarea{
+    width: calc(100% - 10px);
+  }
+}

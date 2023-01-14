@@ -1,27 +1,37 @@
 .aboutMe {
-    max-width: 1100px;
-    margin: 0 40px;
-    margin: auto;
-    height: 78vh;
-    align-items: center;
-    display: flex;
+  max-width: 1100px;
+  margin: 0 40px;
+  margin: auto;
+  height: 78vh;
+  align-items: center;
+  display: flex;
 }
-.aboutMe .container h4{
-    max-width: 1000px;
-    color: #ddd;
-    font-weight: 200;
+.aboutMe .container h4 {
+  max-width: 1000px;
+  color: #ddd;
+  font-weight: 200;
 }
-.aboutMe  button{
-    font-family: "Roboto Slab", serif;
-    width: 200px;
-    height: 40px;
-    border: none;
-    color: #000;
-    background-color: #eb9340;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    margin: 0;
-  }
+.aboutMe button {
+  font-family: "Roboto Slab", serif;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #000;
+  background-color: #eb9340;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutMe{
+        margin: 0 25px;
+    }
+    .aboutMe  .container h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

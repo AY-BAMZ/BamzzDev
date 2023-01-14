@@ -107,6 +107,10 @@ h5 {
   display: none;
 }
 @media only screen and (max-width: 768px) {
+  .navbar {
+    width: calc(100% - 50px);
+    padding: 0 25px;
+  }
   .home .navbar .navLinks {
     display: none;
   }
@@ -168,5 +172,8 @@ h5 {
     font-size: 20px;
     margin: 5px 0;
     color: #eb9340;
+  }
+  .header {
+    font-size: 24px;
   }
 }

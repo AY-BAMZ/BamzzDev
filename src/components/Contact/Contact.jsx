@@ -13,7 +13,7 @@ function Contact() {
           Contact <span>Me</span>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col" id="one">
             <div className="link">
               <IoMdCall />
               <h5>+234906 682 1545</h5>
