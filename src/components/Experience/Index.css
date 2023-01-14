@@ -73,4 +73,7 @@
   .experience .container h5 li {
     font-size: 14px;
   }
+  .experience .container h5 li {
+    line-height: 22px;
+  }
 }

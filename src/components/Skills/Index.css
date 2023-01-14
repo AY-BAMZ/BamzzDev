@@ -31,4 +31,7 @@
   .skills .container h4 li{
     font-size: 14px;
   }
+  .skills .container h4 li{
+    line-height: 22px;
+  }
 }

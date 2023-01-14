@@ -67,4 +67,10 @@
     height: 70vh;
     overflow-y: scroll;
   }
+  .portfolio .row .content:hover >  button {
+    display: none;
+   }
+   .portfolio .row  a{
+    text-decoration: none;
+   }
 }

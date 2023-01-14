@@ -113,4 +113,7 @@
   .contact .container .row .col input,.contact .container .row .col textarea{
     width: calc(100% - 10px);
   }
+  .contact h4{
+    font-size: 16px;
+  }
 }

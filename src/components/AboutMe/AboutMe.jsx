@@ -1,5 +1,6 @@
 import React from "react";
 import "./Index.css";
+import MyFile from "../../assets/myfile.pdf"
 
 function AboutMe() {
   return (
@@ -25,10 +26,10 @@ function AboutMe() {
           set of abilities, and am excited to bring my expertise to new projects
           and challenges.
         </h4>
-        <div style={{alignItems: "left", display: 'flex'}}>
+        <a href={MyFile} download="Ayobami Paul Adegbohungbe Resume" style={{alignItems: "left", display: 'flex'}}>
 
         <button>Download Resume</button>
-        </div>
+        </a>
       </div>
     </div>
   );

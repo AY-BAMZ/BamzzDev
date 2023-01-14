@@ -11,6 +11,9 @@
   color: #ddd;
   font-weight: 200;
 }
+.aboutMe a{
+    text-decoration: none;
+}
 .aboutMe button {
   font-family: "Roboto Slab", serif;
   width: 200px;
@@ -31,7 +34,7 @@
         margin: 0 25px;
     }
     .aboutMe  .container h4 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 }

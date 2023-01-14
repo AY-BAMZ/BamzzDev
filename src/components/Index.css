@@ -62,7 +62,7 @@
   margin-top: 12px;
 }
 .home .container .social {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
