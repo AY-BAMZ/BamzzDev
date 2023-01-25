@@ -10,7 +10,7 @@ function AboutMe() {
           About<span> Me</span>
         </div>
         <h4>
-          I am a skilled Frontend Developer with4 3 years of experience in the
+          I am a skilled Frontend Developer with 3 years of experience in the
           industry. I have a strong background in mobile development and have
           expertise in using React and React Native. I have worked with
           companies such as Prevet (a car vetting platform), Zurichat (a work
