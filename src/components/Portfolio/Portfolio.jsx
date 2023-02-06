@@ -22,6 +22,18 @@ function Portfolio() {
               </div>
             </div>
           </a>
+          <a href="https://cashaam.com/">
+            <div className="content">
+              <button className="button">View Now</button>
+              <div className="box">
+                <img
+                  src="https://res.cloudinary.com/dmixz7eur/image/upload/v1675671257/my%20portfolio/Frame_788_kq8ywm.png"
+                  alt=""
+                />
+                <div className="title">Cashaam</div>
+              </div>
+            </div>
+          </a>
           <a href="https://www.rescope.earth/">
             <div className="content">
               <button className="button">View Now</button>
@@ -34,15 +46,15 @@ function Portfolio() {
               </div>
             </div>
           </a>
-          <a href="">
+          <a href="https://prevets.com/">
             <div className="content">
               <button className="button">View Now</button>
               <div className="box">
                 <img
-                  src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673576775/my%20portfolio/Frame_786_yrc68m.png"
+                  src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673576774/my%20portfolio/Frame_785_iwdp49.png"
                   alt=""
                 />
-                <div className="title">FeedVote</div>
+                <div className="title">Prevet</div>
               </div>
             </div>
           </a>
@@ -67,18 +79,6 @@ function Portfolio() {
                   alt=""
                 />
                 <div className="title">E-Chef</div>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div className="content">
-              <button className="button">View Now</button>
-              <div className="box">
-                <img
-                  src="https://res.cloudinary.com/dmixz7eur/image/upload/v1673576774/my%20portfolio/Frame_785_iwdp49.png"
-                  alt=""
-                />
-                <div className="title">Prevet</div>
               </div>
             </div>
           </a>
